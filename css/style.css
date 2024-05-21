@@ -2,13 +2,13 @@
 
 body {
     background-color: white;
-    background-image: url("https://codecrashers.nl/img/introductie-web/inleiding-web/repeating-trees.png");
+    background-image: url("../images/repeating-trees.png");
     font-family: Calibri, sans-serif;
     font-size: 18px;
 }
 
 body.aaaaah {
-    background-image: url("https://codecrashers.nl/img/introductie-web/inleiding-web/nicolas-bg.jpg");
+    background-image: url("../images/nicolas-bg.jpg");
     animation: nic 20s linear infinite;
 }
 

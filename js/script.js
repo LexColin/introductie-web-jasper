@@ -75,7 +75,7 @@ const dateString = weekday + ", " + monthday + " " + month + " " + year;
 $("#datum").text(dateString);
 
 $("button").click(function () {
-    $("p:first-of-type").slideToggle(2000);
+    $(".spoiler-text").slideToggle(2000);
     if ($(this).text() == "Verbergen") {
         $(this).text("Terughalen");
     } else {
@@ -93,7 +93,7 @@ $(".icon").click(function () {
         $("img").attr("src", "./images/nicolas-cage.jpg");
         $("a").attr("href", "./images/wallpaper.jpg");
         $("#datum").text("tijd voor Nicolas Cage");
-        $("p:nth-of-type(2)").text("Beste films ooit:");
+        $(".list-info").text("Beste films ooit:");
         $("li:nth-of-type(1)").text("Face/Off");
         $("li:nth-of-type(2)").text("Vampire's Kiss");
         $("li:nth-of-type(3)").text("Ghost Rider");

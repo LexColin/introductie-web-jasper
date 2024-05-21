@@ -71,7 +71,7 @@ switch (month) {
         month = "onbekend";
 }
 
-const dateString = weekday + ", " + monthday + " " + month + " " + year;
+const dateString = `${weekday}, ${monthday} ${month} ${year}`;
 $("#datum").text(dateString);
 
 $("button").click(function () {
